@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Comic+Neue:wght@700&family=Noto+Sans:wght@800&family=Oxygen:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#div-container-principal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1560 560L0 560 L0 359.98Q3.99 291.97%2c 72 295.96Q101.99 253.94%2c 144 283.93Q234.53 254.46%2c 264 344.98Q308.58 269.56%2c 384 314.14Q440.57 298.71%2c 456 355.28Q500.48 279.75%2c 576 324.23Q617.54 293.77%2c 648 335.31Q656.6 271.9%2c 720 280.5Q761.23 249.73%2c 792 290.96Q852.31 279.26%2c 864 339.57Q917.55 273.12%2c 984 326.67Q999.74 270.4%2c 1056 286.14Q1098.83 256.97%2c 1128 299.79Q1206.71 258.5%2c 1248 337.22Q1296.41 313.63%2c 1320 362.04Q1360.77 282.81%2c 1440 323.58Q1491.88 255.47%2c 1560 307.35z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1560 560L0 560 L0 362.63Q70.25 312.88%2c 120 383.14Q190.06 333.2%2c 240 403.26Q294.91 386.17%2c 312 441.08Q361.24 370.31%2c 432 419.55Q439.64 355.19%2c 504 362.84Q575.16 314%2c 624 385.16Q697.57 338.73%2c 744 412.3Q776.3 324.6%2c 864 356.89Q946.49 319.38%2c 984 401.86Q1033.17 379.03%2c 1056 428.2Q1091.21 343.41%2c 1176 378.62Q1227.82 310.44%2c 1296 362.26Q1361.15 355.41%2c 1368 420.57Q1385.61 366.17%2c 1440 383.78Q1490.62 314.39%2c 1560 365.01z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1536 560L0 560 L0 426.08Q83.35 389.43%2c 120 472.78Q189.54 422.32%2c 240 491.86Q278.53 410.39%2c 360 448.92Q402.33 419.25%2c 432 461.59Q475.37 432.95%2c 504 476.32Q545.42 445.74%2c 576 487.16Q609.72 400.88%2c 696 434.6Q749.38 367.99%2c 816 421.37Q883.56 416.93%2c 888 484.49Q905.93 430.42%2c 960 448.35Q1011.36 379.71%2c 1080 431.07Q1154.3 385.37%2c 1200 459.67Q1227.34 415.01%2c 1272 442.35Q1329.93 428.29%2c 1344 486.22Q1374.11 444.33%2c 1416 474.44Q1461.99 400.43%2c 1536 446.41z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 506.23Q54.3 488.53%2c 72 542.82Q115 513.82%2c 144 556.81Q159.44 500.25%2c 216 515.69Q264.41 492.11%2c 288 540.52Q361 493.52%2c 408 566.53Q425.93 512.46%2c 480 530.4Q530.85 461.25%2c 600 512.1Q687.31 479.41%2c 720 566.72Q745.59 472.31%2c 840 497.9Q884 469.9%2c 912 513.91Q980.24 462.14%2c 1032 530.38Q1102.35 480.73%2c 1152 551.08Q1188.2 467.29%2c 1272 503.49Q1339.8 451.29%2c 1392 519.08Q1434.61 489.68%2c 1464 532.29z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+#div-container-body-page {
+    width: 970px;
+    height: 590px;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+#div-container-menu-body-page {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.div-item-menu-body-page {
+    min-width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.span-texto-item-menu {
+    font-family: 'Comic Neue';
+    font-size: 20px;
+}
+
+.div-item-menu-body-page:hover {
+    background-color: #356CB1;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: all 0.3s ease-in;
+    span {
+        color: #ffffff;
+    }
+}
+
+#div-contant-body-page {
+    width: 100%;
+}
+
+#div-container-row-body-page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+.div-col {
+    width: 100%;
+    height: 100%;
+}
+
+#div-col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#div-box-bem-vindo {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+#span-texto-bem-vindo {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: #182F5D;
+    color: #ffffff;
+}
+
+#span-descricao-bem-vindo {
+    font-family: 'Comic Neue';
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#div-container-roda-pe {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#span-texto-roda-pe {
+    font-family: 'Comic Neue';
+    font-size: 14px;
+}
