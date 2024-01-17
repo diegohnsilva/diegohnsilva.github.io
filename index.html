@@ -3,376 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="libs/magic.css">
-    <link rel="icon" type="image/x-icon" href="imagens/favicon-code.png">
-    <link rel="stylesheet" href="styles/style-principal.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="./styles/style-default.css">
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <div id="div-container-menu">
-            <div id="div-container-cols">
-                <div id="div-col-container-logo" class="div-col-menu">
-                    <div id="div-container-texto-logo">
-                        <img src="imagens/logo-diego-v2.png" alt="">
-                    </div>
+    <div id="div-container-principal">
+        <div id="div-container-body-page">
+            <div id="div-container-menu-body-page">
+                <div class="div-item-menu-body-page">
+                    <span class="span-texto-item-menu">Home</span>
                 </div>
-                <div id="div-col-container-menu" class="div-col-menu">
-                    <div id="div-container-item-menu">
-                        <div class="div-item-menu">
-                            <span class="span-texto-item-menu">Home</span>
-                        </div>
-                        <div class="div-item-menu">
-                            <span class="span-texto-item-menu">Sobre</span>
-                        </div>
-                        <div class="div-item-menu">
-                            <span class="span-texto-item-menu">Formação</span>
-                        </div>
-                        <div class="div-item-menu">
-                            <span class="span-texto-item-menu">Portfólio</span>
-                        </div>
-                        <div class="div-item-menu">
-                            <span class="span-texto-item-menu">Contato</span>
-                        </div>
-                    </div>
+                <div class="div-item-menu-body-page">
+                    <span class="span-texto-item-menu">Sobre</span>
                 </div>
-                <div id="div-col-container-icon" class="div-col-menu">
-                    <div id="div-container-icon">
-                        <img class="img-icon-logo-menu" src="imagens/icon-logo-code.png" alt="" srcset="">
-                    </div>
+                <div class="div-item-menu-body-page" style="margin-right: 30px;">
+                    <span class="span-texto-item-menu">Contato</span>
                 </div>
             </div>
-        </div>
-    </header>
 
-    <div id="div-container-sections">
-
-        <!-- SECTION BANNER -->
-        <section id="section-banner">
-            <div id="div-container-section-banner">
-                <div id="div-container-banner">
-                    <div id="div-container-texto-banner">
-                        <span id="span-texto-banner">Bem-vindos ao meu espaço digital!</span>
-                        <span id="span-sub-texto-banner">
-                            <span id="span-banner-part-1" class="magictime vanishIn">Explore,</span> 
-                            <span id="span-banner-part-2" class="magictime vanishIn">descubra</span> 
-                            <span id="span-banner-part-3" class="magictime vanishIn">e</span> 
-                            <span id="span-banner-part-4" class="magictime vanishIn">divirta-se.</span>
-                        </span>
-                    </div>
-                    <div id="div-container-img-banner">
-                        <div id="div-img-banner">
-                            <img src="imagens/programer-banner.gif" alt="" width="800" height="800">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SECTION SOBRE -->
-        <section id="section-sobre">
-            <div id="div-container-section-sobre">
-                <div id="div-container-cols-sobre">
-                    <div id="div-col-texto-sobre" class="div-col-sobre">
-                        <span id="span-texto-col1-sobre">
-                            Olá! Sou <strong>Diego Silva</strong>, analista sênior e um entusiasta da programação apaixonado por desafios e inovação.
-                        </span>
-                    </div>
-                    <div id="div-col-texto-part-2-sobre" class="div-col-sobre">
-                        <span class="span-texto-col2-sobre">
-                            Como programador, encontrei na linguagem de programação uma forma de dar vida a ideias e 
-                            transformar conceitos abstratos em soluções tangíveis.
-                        </span>
-                        <br/>
-                        <span class="span-texto-col2-sobre">
-                            Minha jornada na programação é um constante aprendizado, onde cada linha de código representa não apenas funcionalidade, 
-                            mas uma expressão da minha dedicação à excelência técnica. Com expertise em FrontEnd, BackEnd, Cloud, UI/UX, busco ir além do convencional, 
-                            explorando novas tecnologias e abordagens para impulsionar projetos.
-                        </span>
-                        <br/>
-                        <span class="span-texto-col2-sobre">
-                            Além do mundo binário, sou um defensor do compartilhamento de conhecimento. 
-                            Acredito que a troca de ideias é essencial para o crescimento coletivo, e é por isso que mantenho este espaço 
-                            como uma fonte de insights, dicas e experiências relacionadas à programação. 
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div id="div-section-divisor-1"></div>
-
-         <!-- SECTION SOBRE -->
-         <section id="section-formacao">
-            <div id="div-container-section-formacao">
-                <div id="div-container-cols-formacao">
-                    <div id="div-col-texto-formacao" class="div-col-formacao">
-                        <div id="div-container-card-formacao">
-                            <div class="div-card-formacao">
-                                <div class="div-icon-card-formacao">
-                                    <img src="imagens/diploma-v2.png" alt="" srcset="">
-                                </div>
-                                <div class="div-text-card-formacao">
-                                    <strong><span class="span-texto-card-formacao">Design Gráfico</span></strong>
-                                    <span class="span-texto-card-formacao">Concluído</span>
-                                </div>
-                            </div>
-                            <div class="div-card-formacao">
-                                <div class="div-icon-card-formacao">
-                                    <img src="imagens/diploma-de-graduacao.png" alt="" srcset="">
-                                </div>
-                                <div class="div-text-card-formacao">
-                                    <strong><span class="span-texto-card-formacao">Tecnologia da Informação</span></strong>
-                                    <span class="span-texto-card-formacao">Concluído</span>
-                                </div>
-                            </div>
-                            <div class="div-card-formacao">
-                                <div class="div-icon-card-formacao">
-                                    <img src="imagens/estudar.png" alt="" srcset="" width="70" height="70">
-                                </div>
-                                <div class="div-text-card-formacao">
-                                    <strong><span class="span-texto-card-formacao">Analise e Desenvolvimento de Sistemas</span></strong>
-                                    <span class="span-texto-card-formacao">Cursando</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="div-col-texto-img-formacao" class="div-col-formacao">
-                        <img src="imagens/image-sobre-v2.gif" alt="" srcset="" width="400" height="400">
-                    </div>
-
-                    <div id="div-col-texto-trabalho" class="div-col-formacao">
-                        <div id="div-container-card-trabalho">
-                            <div class="div-card-trabalho">
-                                <div class="div-text-card-trabalho">
-                                    <strong><span class="span-texto-card-trabalho">Desenvolvedor Web</span></strong>
-                                    <span class="span-texto-card-trabalho">intermediário</span>
-                                </div>
-                                <div class="div-icon-card-trabalho">
-                                    <img src="imagens/programacao-da-web.png" alt="" srcset="">
-                                </div>
-                            </div>
-                            <div class="div-card-trabalho">
-                                <div class="div-text-card-trabalho">
-                                    <strong><span class="span-texto-card-trabalho">Desenvolvedor Salesforce</span></strong>
-                                    <span class="span-texto-card-trabalho">Avançado</span>
-                                </div>
-                                <div class="div-icon-card-trabalho">
-                                    <img src="imagens/cloud-coding.png" alt="" srcset="">
-                                </div>
-                            </div>
-                            <div class="div-card-trabalho">
-                                <div class="div-text-card-trabalho">
-                                    <strong><span class="span-texto-card-trabalho">Desenvolvedor Backend</span></strong>
-                                    <span class="span-texto-card-trabalho">intermediário</span>
-                                </div>
-                                <div class="div-icon-card-trabalho">
-                                    <img src="imagens/dev-backend.png" alt="" srcset="" width="70" height="70">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div id="div-section-divisor-2"></div>
-
-        <!-- SECTION WORK -->
-        <section id="section-work">
-            <div id="div-container-section-work">
-                <div id="div-container-rows-work">
-
-                    <div id="div-row-texto-work">
-                        <div id="div-container-texto-work" class="div-col-texto-work">
-                            <span id="span-texto-work">Meu portfólio</span>
-                        </div>
-                        <div id="div-container-descricao-work" class="div-col-texto-work">
-                            <span id="span-descricao-work">
-                                Explore esta coleção diversificada de programas e descubra como a tecnologia pode ser aliada na simplificação do cotidiano. 
-                                Seja para automação de processos, organização de dados ou interações intuitivas, cada programa reflete o meu compromisso com a excelência 
-                                no desenvolvimento de software.
+            <div id="div-contant-body-page">
+                <div id="div-container-row-body-page">
+                    <!-- <div class="div-col">
+                        <img src="./imagens/icon-people-ok.gif" alt="" srcset="">
+                    </div> -->
+                    <div class="div-col" id="div-col-2">
+                        <div id="div-box-bem-vindo">
+                            <span id="span-texto-bem-vindo">Bem vindo</span>
+                            <span id="span-descricao-bem-vindo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Consequuntur, dolorum reiciendis optio tenetur repellat eaque 
+                                ipsam adipisci est, nobis corporis aperiam fugiat officia vel, 
+                                dolor quia iusto! Quasi, cumque deleniti.
                             </span>
                         </div>
                     </div>
-
-                    <div id="div-row-cards-work">
-                        <div id="div-container-cards-work">
-                            <div id="div-card-atividade" class="div-card-work magictime">
-                                <div class="div-container-card-work">
-                                    <div class="div-container-icon-card-work">
-                                        <img src="imagens/atividades-academicas.png" alt="" srcset="">
-                                    </div>
-                                    <div class="div-container-texto-card-work">
-                                        <span class="span-texto-card-work">Atividades acadêmicas</span>
-                                    </div>
-                                    <div class="div-container-descricao-card-work">
-                                        <span class="span-descricao-card-work">
-                                            Minha trajetória acadêmica na área de programação tem sido uma jornada empolgante e repleta de desafios estimulantes. 
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="div-card-design" class="div-card-work magictime">
-                                <div class="div-container-card-work">
-                                    <div class="div-container-icon-card-work">
-                                        <img src="imagens/ui-ux.png" alt="" srcset="">
-                                    </div>
-                                    <div class="div-container-texto-card-work">
-                                        <span class="span-texto-card-work">UI/UX Design</span>
-                                    </div>
-                                    <div class="div-container-descricao-card-work">
-                                        <span class="span-descricao-card-work">
-                                            Buscando construir interfaces que não apenas encantem visualmente, mas também proporcionem uma experiência intuitiva e envolvente.
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="div-card-projetos" class="div-card-work magictime">
-                                <div class="div-container-card-work">
-                                    <div class="div-container-icon-card-work">
-                                        <img src="imagens/projetos-pessoais.png" alt="" srcset="">
-                                    </div>
-                                    <div class="div-container-texto-card-work">
-                                        <span class="span-texto-card-work">Projetos pessoais</span>
-                                    </div>
-                                    <div class="div-container-descricao-card-work">
-                                        <span class="span-descricao-card-work">
-                                            Cada projeto é uma jornada única, onde mergulho em desafios, aprendo lições valiosas e transformo ideias em realidade digital.
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="div-card-repositorio" class="div-card-work magictime">
-                                <div class="div-container-card-work">
-                                    <div class="div-container-icon-card-work">
-                                        <img src="imagens/repositorio.png" alt="" srcset="">
-                                    </div>
-                                    <div class="div-container-texto-card-work">
-                                        <span class="span-texto-card-work">Repositório</span>
-                                    </div>
-                                    <div class="div-container-descricao-card-work">
-                                        <span class="span-descricao-card-work">
-                                            Cada commit, cada branch, conta uma história única de desafios superados e conquistas alcançadas.
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- SECTION CONTATO -->
-        <section id="section-contato">
-            <div id="div-container-section-contato">
-                <div id="div-container-formulario-contato">
-                    <div id="div-container-texto-contato">
-                        <span>FORM</span>
-                    </div>
-                    <div id="div-container-descricao-contato">
-                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                            Reiciendis explicabo nesciunt placeat, 
-                            repellendus dolorum sint quam soluta.
-                        </span>
-                    </div>
-                    <div id="div-container-texto-contato">
-                        FORM
+                    <div class="div-col">
+                        <img src="./imagens/icon-people-talking.gif" alt="" srcset="">
                     </div>
                 </div>
             </div>
-        </section>
+            <div id="div-container-roda-pe">
+                <span id="span-texto-roda-pe">2014 © All right reserd</span>
+            </div>
+        </div>
+
     </div>
-
-    <footer>
-        <div id="div-container-footer">
-            <div id="div-row-footer-cols">
-                <div id="div-contianer-cols-footer">
-                    <div id="div-row-logo-footer">
-                        <div id="div-container-logo-footer">
-                            <img src="imagens/logo-diego-v2.png" alt="" width="120" height="50">
-                        </div>
-                        <div id="div-container-texto-footer">
-                            <span id="span-texto-footer">
-                                Programadores são exploradores incansáveis, 
-                                navegando pelos intricados caminhos do desenvolvimento de software para construir o futuro tecnológico que todos nós compartilhamos.
-                            </span>
-                        </div>
-                        <div id="div-container-social-media">
-                            <div class="div-container-icon-social-media">
-                                <img src="imagens/whatsapp-logo.png" title="Whatsapp">
-                            </div>
-                            <div class="div-container-icon-social-media">
-                                <img src="imagens/instagram-logo.png" title="Instagram">
-                            </div>
-                            <div class="div-container-icon-social-media">
-                                <img src="imagens/linkedin-logo.png" title="Linkedin">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="div-row-container-cols">
-                        <div class="div-col-footer">
-                            <div class="div-container-header-col-footer">
-                                <span class="span-texto-header-col-footer">Col</span>
-                            </div>
-                        </div>
-                        <div id="div-col-contato" class="div-col-footer">
-                            <div class="div-container-header-col-footer">
-                                <span class="span-texto-header-col-footer">Contato</span>
-                            </div>
-                            <div class="div-container-dados-contato">
-                                <span class="span-texto-dados-contato">(81) 98817-33928</span>
-                                <span class="span-texto-dados-contato">diego.h.n.silva@gmail.com</span>
-                            </div>
-                        </div>
-                        <div id="div-col-interesse" class="div-col-footer">
-                            <div class="div-container-header-col-footer">
-                                <span class="span-texto-header-col-footer">Interesse</span>
-                            </div>
-                            <div id="div-container-interesse">
-                                <div class="div-container-icon-interesse">
-                                    <img src="imagens/praia-icon.png" title="Praia">
-                                </div>
-                                <div class="div-container-icon-interesse">
-                                    <img src="imagens/games-icon.png" title="Jogos">
-                                </div>
-                                <div class="div-container-icon-interesse">
-                                    <img src="imagens/livro-icon.png" title="Livros">
-                                </div>
-                                <div class="div-container-icon-interesse">
-                                    <img src="imagens/viagens-icon.png" title="Viagens">
-                                </div>
-                                <div class="div-container-icon-interesse">
-                                    <img src="imagens/religao-icon.png" title="Religião">
-                                </div>
-                                <div class="div-container-icon-interesse">
-                                    <img src="imagens/familia-icon.png" title="Fámilia">
-                                </div>
-                                <div class="div-container-icon-interesse">
-                                    <img src="imagens/filme-icon.png" title="Filmes">
-                                </div>
-                                <div class="div-container-icon-interesse">
-                                    <img src="imagens/compras-icon.png" title="Compras">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="div-row-footer-container-texto">
-                <div id="div-texto-footer">
-                    <span id="span-texto-diretos-footer">Diego © <script>document.write(new Date().getFullYear())</script> todos os diretos reservados</span>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="scripts/script-menu.js"></script>
 </body>
 </html>
