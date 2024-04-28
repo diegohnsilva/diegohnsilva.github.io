@@ -1,0 +1,158 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:opsz@9..40&family=Kanit:wght@500&family=Raleway:wght@300&display=swap');
+
+@font-face {
+    font-family: 'garde';
+    src: url(/fonts/FontsFree-Net-Garde.ttf);
+}
+
+:root {
+    --font-item-menu: "Alumni Sans";
+    --font-descricao: "Alegreya Sans";
+    --color-branco-default: #ffffff;
+    --primary-100:#6c35de;
+    --primary-200:#a364ff;
+    --primary-300:#ffc7ff;
+    --accent-100:#cb80ff;
+    --accent-200:#373737;
+    --text-100:#ffffff;
+    --text-200:#e0e0e0;
+    --bg-100:#241b35;
+    --bg-200:#342a45;
+    --bg-300:#4d425f;
+}
+
+#div-container-header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/image_background_stream_verse.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#div-container-menu {
+    height: 67px;
+    width: 100%;
+    background-color: var(--bg-300);
+    display: flex;
+    justify-content: center;
+}
+
+.div-container-menu-in {
+    width: 100%;
+    background-color: var(--bg-300) !important;
+    position: fixed;
+    transition: background-color 1s ease;
+}
+
+.div-container-menu-out {
+    width: 100%;
+    background-color: var(--color-branco-default) !important;
+    position: fixed;
+    transition: background-color 1s ease;
+}
+
+#div-menu {
+    width: 1010px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div-col-logo-menu {
+    display: flex;
+}
+
+#div-col-item-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.span-item-menu {
+    font-family: var(--font-item-menu);
+    font-size: 28px;
+    font-weight: lighter;
+    color: var(--color-branco-default);
+}
+
+.span-item-menu-custom {
+    color: var(--bg-300) !important;
+    font-weight: 500;
+}
+
+#div-col-login-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    justify-content: center;
+}
+
+#div-col-login-menu:hover {
+    cursor: pointer;
+    background-color: var(--bg-200);
+}
+
+#div-logo-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#div-descricao-stream-verse {
+    width: 1077px;
+    display: flex;
+}
+
+#span-texto-descricao-stream-verse {
+    font-family: var(--font-descricao);
+    font-size: 24px;
+    text-align: center;
+}
+
+#div-botoes-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#div-btn-saiba-mais {
+    width: 261px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: var(--bg-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#span-texto-btn-saiba-mais {
+    font-family: var(--font-descricao);
+    color: var(--color-branco-default);
+    font-size: 24px;
+}
+
+#div-btn-ver-planos {
+    width: 261px;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid var(--bg-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#span-texto-btn-ver-planos {
+    font-family: var(--font-descricao);
+    color: var(--bg-300);
+    font-size: 24px;
+}
